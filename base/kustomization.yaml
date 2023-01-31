@@ -1,0 +1,9 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: test-app8
+resources:
+  - test-app8-deploy.yaml
+  - test-app8-svc.yaml
+  - test-app8-vs.yaml
+  - test-app8-hpa.yaml
